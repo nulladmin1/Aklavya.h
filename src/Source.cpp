@@ -4,4 +4,5 @@
 
 int main() {
     Aklavya aklavya = Aklavya();
+    aklavya.sybau();
 }

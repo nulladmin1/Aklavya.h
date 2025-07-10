@@ -2,6 +2,12 @@
 
 #include "Aklavya.h"
 
-Aklavya::Aklavya()
-{
+Aklavya::Aklavya() {}
+
+int Aklavya::brainrot() {
+    return brainrot_score;
+}
+
+void Aklavya::sybau() {
+    std::cout << sybau_text << std::endl;
 }
