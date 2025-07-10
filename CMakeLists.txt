@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 23)
 
 add_subdirectory(src)
 
-install(TARGETS aklavya DESTINATION bin)
+target_link_libraries(aklavya_h PRIVATE aklavya_lib)
+
+install(TARGETS aklavya_h DESTINATION bin)
